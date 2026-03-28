@@ -5,10 +5,6 @@ import (
 	"fmt"
 )
 
-func stats(email string) {
-	fmt.Printf("Stats for %s:\n", email)
-}
-
 func main() {
 	var folder string
 	var email string
@@ -19,5 +15,6 @@ func main() {
 		scan(folder)
 		return
 	}
+	fmt.Printf("Scanning for email: %s\n\n", email)
 	stats(email)
 }
