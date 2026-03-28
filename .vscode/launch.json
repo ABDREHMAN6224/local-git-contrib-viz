@@ -2,12 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Go Program",
+            "name": "Debug Go Program with Args",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "program": "${workspaceFolder}",
-            "args": ["-email", "amemon.bscs22seecs@seecs.edu.pk"]
+            "args": ["-email","amemon.bscs22seecs@seecs.edu.pk"]
         }
     ]
 }
